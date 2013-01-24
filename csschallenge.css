@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: gray;
+}
+
+.clearfix:before,
+.clearfix:after,
+#content:before,
+#content:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+#content:after {
+  clear: both;
+}
+
+header {
+	background: url('img/header.jpg');
+	padding-top: 20px;
+}
+
+header section {
+	width: 1018px;
+	margin:0 auto;
+}
+
+#logo {
+	width: 320px;
+	float: left;
+}
+
+header p {
+	color: white;
+	width:300px;
+	float: right;
+}
+
+nav {
+	display: block;
+	width: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: block;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	background: #026bbc;
+	float: left;
+	margin-top: 20px;
+	padding: 20px 51px;
+}
+
+#content {
+	background: white;
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#slide {
+	position: relative;
+}
+
+#slide h1 {
+	position: absolute;
+	top:100px;
+	right: 0;
+	background: rgba(0,0,0,.5);
+	color: white;
+	font-size: 300%;
+	padding: 30px 30px 30px 30px;
+	width: 50%;
+	text-align: right;
+	font-weight: normal;
+}
+
+.box1, .box2, .box3, .box4 {
+	background-color: #efefef;
+	margin-top: 20px;
+	padding: 10px 0px 5px 0px;
+	display: inline;
+}
+
+.box1, .box2, .box4 {
+	float: left;
+}
+
+.box1 {
+	width: 950px;
+}
+
+.box2 {
+	margin-right: 20px;
+	width: 630px;
+}
+
+.box3 {
+	width: 300px;
+	float: right;
+}
+
+.box4 {
+	margin-right: 20px;
+	width: 305px;
+}
+#footer {
+	width: 950px;
+	margin: 0 auto;
+	text-align: right;
+}
