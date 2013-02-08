@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>Contact Form</title>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script src="C:\Users\(_dev)\Desktop\_js\jquery-1.9.1.min.js"></script>
+	<script src="C:\Users\(_dev)\Desktop\Portfolio\Exercises.js"></script>
+</head>
+
+<body>
+	<div id="header">
+			<div id="navbar">
+	<ul id="nav">
+		<li><a href="Portfolio.html">About</a>
+		</li>
+		<li><a href="">Resume</a>
+		</li>
+		<li><a href="">Samples of Work</a>
+		</li>
+		<li><a href="Exercises.html">NSS</a>
+		</li>
+		<li><a href="contact.html">Contact</a>
+		</li>
+	</ul>
+			</div> <!-- end navbar id -->
+	<h1>Contact</h1>
+		</div> <!-- end header id -->
+
+	<h2>Please, talk with me</h2>	
+	<form>
+		<fieldset>
+			<legend>Your details</legend>
+			<p>Name: <input name="name" type="text" placeholder="John Smith" required autofocus><br></p>
+
+			<p>Email: <input name="email" type="email" placeholder="john@smith.com" required><br></p>
+
+			<p>Zip: <input name="zip" type="text" placeholder="10011"><br></p>
+
+			<p>Phone: <input name="phone" type="text" placeholder="Eg. +11234567890"><br></p>
+
+			<p>Skype: <input name="skype" type="" placeholder=""><br></p>
+
+		</fieldset>
+
+<fieldset>
+
+<legend>What type of service do you need? (check all that apply):</legend>
+
+<p><input type="checkbox"
+		name="html5"
+		value="HTML5">HTML5
+
+	<input type="checkbox"
+		name="wordpress"
+		value="wordpress">Wordpress
+
+	<input type="checkbox"
+		name="graphic"
+		value="graphic">Graphic Design
+
+	<input type="checkbox"
+		name="presentation"
+		value="presentation">Presentation Design
+
+</p>
+</fieldset>
+<fieldset>
+<legend>How did you find me?</legend>
+<p>
+	<input type="radio"
+			name="find"
+			value="search"
+			checked="search">Search Engine
+
+	<input type="radio"
+			name="find"
+			value="Bar">Bar
+
+	<input type="radio"
+			name="find"
+			value="recommend">Recommended <input id="namerec" name="namerec" type="text" placeholder="Recommended by:"><br>
+
+</p>
+
+</fieldset>
+
+<fieldset>
+	<legend>Give me a quick idea about your issue/problem/question</legend>
+		<select name="quick">
+			<option value="marriage">I want to marry you.</option>
+			<option value="phone">I want to throw my phone out of the window.</option>
+			<option value="money" selected="selected">I want to give you money.</option>
+		</select>
+
+</fieldset>
+
+<fieldset>
+	<legend>Comments:</legend>
+	<textarea id="detail" name="detail" rows="10" cols="100" placeholder="Please be as detailed as possible. I'm listening." required></textarea>
+</fieldset>
+
+<input type="Submit">
+<p><strong>Messages will be answered within 24-48 hours, unless it is a weekend (or I am doing something fun)</strong></p>
+
+</form>
+</body>
+</html>
